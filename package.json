@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "--format json:reports/cucumber_report.json",
+    "test": "cucumber-js --format json:reports/cucumber_report.json",
     "report": "node generate-html-report.js",
     "run-with-tags":"cucumber-js --tags"
   },
