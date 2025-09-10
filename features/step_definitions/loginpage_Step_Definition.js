@@ -35,3 +35,16 @@ Then('Validate user logged in to the DS Homepage', async function () {
 
 });
 
+ When('I click on logout option', async function () {
+
+  await this.loginpage.logout();
+           
+         });
+
+
+Then('user should be logged out of the application', async function () {
+
+  await this.loginpage.validate_logout_sucess();
+           
+         });         
+

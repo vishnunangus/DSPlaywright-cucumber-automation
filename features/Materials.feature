@@ -1,6 +1,6 @@
 Feature: Materials Module
 
-    @Regression @Now
+    @Regression 
 
     Scenario Outline: Create a new material
         Given I open the DS application
