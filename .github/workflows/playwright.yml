@@ -1,0 +1,40 @@
+name: Playwright Automation Tests
+
+# Trigger the workflow on every code push or PR
+on:
+  push:
+    branches:
+      - main
+      - develop
+  pull_request:
+    branches:
+      - main
+      - develop
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository code
+      uses: actions/checkout@v3
+
+    - name: Setup Node.js environment
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Run Playwright + Cucumber tests
+      run: npm run test
+
+    - name: Generate HTML report
+      run: npm run report
+
+    - name: Upload Test Report Artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: cucumber-report
+        path: reports/cucumber_report.html
