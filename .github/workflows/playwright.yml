@@ -26,7 +26,7 @@ jobs:
     - name: Install dependencies
       run: npm install
 
-      name: Run Playwright + Cucumber tests
+    - name: Run Playwright + Cucumber tests
       run: npx cucumber-js --format json:reports/cucumber_report.json
 
     - name: Generate HTML report
