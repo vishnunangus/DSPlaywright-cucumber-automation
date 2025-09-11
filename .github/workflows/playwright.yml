@@ -1,4 +1,4 @@
-name: Playwright + Cucumber CI
+name: Playwright + Cucumber Automation CI
 
 on:
   push:
@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout Code
+    - name: Checkout code
       uses: actions/checkout@v3
 
     - name: Setup Node.js
@@ -26,10 +26,10 @@ jobs:
     - name: Install Dependencies
       run: npm install
 
-    - name: Install Playwright Browsers
-      uses: microsoft/playwright-github-action@v1
+    - name: Install Playwright Browsers + System Dependencies
+      run: npx playwright install --with-deps
 
-    - name: Run Playwright + Cucumber Tests
+    - name: Run Playwright + Cucumber tests
       run: npm run test
 
     - name: Generate HTML Report
