@@ -26,8 +26,11 @@ jobs:
     - name: Install dependencies
       run: npm install
 
+    - name: Set execute permission for cucumber-js binary
+      run: chmod +x ./node_modules/.bin/cucumber-js
+
     - name: Run Playwright + Cucumber tests
-      run: npx @cucumber/cucumber --format json:reports/cucumber_report.json
+      run: npx cucumber-js --format json:reports/cucumber_report.json
 
     - name: Generate HTML report
       run: npm run report
