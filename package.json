@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "install-browsers": "playwright install",
     "test": "cucumber-js --format json:reports/cucumber_report.json",
     "report": "node generate-html-report.js",
     "test:now": "cucumber-js --tags \"@Now\" --format json:reports/cucumber_report.json",
