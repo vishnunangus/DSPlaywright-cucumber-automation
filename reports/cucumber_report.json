@@ -1,1 +1,2073 @@
-[]
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "materials-module;create-a-new-material",
+        "keyword": "Scenario Outline",
+        "line": 28,
+        "name": "Create a new material",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 620759700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I open the DS application",
+            "match": {
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5344706599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I login with \"vishnu.nangunuri@kanerika.com\" and \"Viya121898@\"",
+            "match": {
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2920666898
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I Click on Login button",
+            "match": {
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1318616799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Click on Launch button",
+            "match": {
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9488178299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "Validate user logged in to the DS Homepage",
+            "match": {
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10721181599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "Click on Material certificates page",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2096534500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "Click on plus icon",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1952860599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "Click on Add new material button",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1930564700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "Enter the Material Name as \"Test Material\"",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1401146700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "Click on Submit button",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1624250298
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "Validate the sucess mesaage for material creation",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 903275100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "Validate the created material is in the table",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 903629700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "Click on hamberger button for the created material",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1246941100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "Click on Delete button",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:67"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4017945600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "Validate the deleted message is fired sucessfully",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:74"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 901020699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "Validate the material is not present in the table after the deletion",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8373000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 474348400
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "materials-module;create-a-new-material-and-delete-the-material",
+        "keyword": "Scenario Outline",
+        "line": 55,
+        "name": "Create a new material and delete the material",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 557459200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 34,
+            "name": "I open the DS application",
+            "match": {
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4823016600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 35,
+            "name": "I login with \"vishnu.nangunuri@kanerika.com\" and \"Viya121898@\"",
+            "match": {
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1961314598
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "I Click on Login button",
+            "match": {
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 58477700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 37,
+            "name": "Click on Launch button",
+            "match": {
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6827615199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "Validate user logged in to the DS Homepage",
+            "match": {
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8929760800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 39,
+            "name": "Click on Material certificates page",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1691936200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 40,
+            "name": "Click on plus icon",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 222478900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 41,
+            "name": "Click on Add new material button",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 345695900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 42,
+            "name": "Enter the Material Name as \"Test Material\"",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1313006698
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 43,
+            "name": "Click on Submit button",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 78815498
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 44,
+            "name": "Validate the sucess mesaage for material creation",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 917537898
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 45,
+            "name": "Validate the created material is in the table",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 901972000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 46,
+            "name": "Click on hamberger button for the created material",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 64879499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 47,
+            "name": "Click on Delete button",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:67"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 408237099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 48,
+            "name": "Validate the deleted message is fired sucessfully",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:74"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 906254599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 49,
+            "name": "Validate the material is not present in the table after the deletion",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6479599
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 379308799
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 31
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "materials-module;create-a-new-material,-edit-material-and-delete-the-material",
+        "keyword": "Scenario Outline",
+        "line": 85,
+        "name": "Create a new material, edit material and delete the material",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 564523600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 61,
+            "name": "I open the DS application",
+            "match": {
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5078390899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 62,
+            "name": "I login with \"vishnu.nangunuri@kanerika.com\" and \"Viya121898@\"",
+            "match": {
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2130825499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 63,
+            "name": "I Click on Login button",
+            "match": {
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 58589100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 64,
+            "name": "Click on Launch button",
+            "match": {
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7393625400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 65,
+            "name": "Validate user logged in to the DS Homepage",
+            "match": {
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10345037099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 66,
+            "name": "Click on Material certificates page",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1147447199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 67,
+            "name": "Click on plus icon",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 225417000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 68,
+            "name": "Click on Add new material button",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 335723999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 69,
+            "name": "Enter the Material Name as \"Test Material\"",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1313444399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 70,
+            "name": "Click on Submit button",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 96888099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 71,
+            "name": "Validate the sucess mesaage for material creation",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 899813000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 72,
+            "name": "Validate the created material is in the table",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 384401999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 73,
+            "name": "Click on hamberger button for the created material",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 81055799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 74,
+            "name": "Click on edit button",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:92"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 381482398
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 75,
+            "name": "Enter the updated material name as \"12345\"",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:97"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20252298
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 76,
+            "name": "Click on save button",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:106"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 86031099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 77,
+            "name": "Validate the edited message fired sucessfully",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:111"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 911642899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 78,
+            "name": "Validate the updated name of material is present in the table",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:116"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 900076100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 79,
+            "name": "Click on Delete button of the updated material",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:121"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 448257698
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 80,
+            "name": "Validate the deleted message is fired sucessfully for updated material",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:130"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 910878199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 81,
+            "name": "Validate the updated material is not present in the table after the deletion",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:136"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6273200
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 522738499
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 58
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "materials-module;validate-details-of-the-material-created",
+        "keyword": "Scenario Outline",
+        "line": 112,
+        "name": "Validate details of the material created",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 760920800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 90,
+            "name": "I open the DS application",
+            "match": {
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4944491400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 91,
+            "name": "I login with \"vishnu.nangunuri@kanerika.com\" and \"Viya121898@\"",
+            "match": {
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2190617200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 92,
+            "name": "I Click on Login button",
+            "match": {
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 63061199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 93,
+            "name": "Click on Launch button",
+            "match": {
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7364069599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 94,
+            "name": "Validate user logged in to the DS Homepage",
+            "match": {
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10663516100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 95,
+            "name": "Click on Material certificates page",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1663547699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 96,
+            "name": "Click on plus icon",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 183961599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 97,
+            "name": "Click on Add new material button",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 305157399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 98,
+            "name": "Enter the Material Name as \"Test Material\"",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1062525998
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 99,
+            "name": "Click on Submit button",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 45626300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 100,
+            "name": "Validate the sucess mesaage for material creation",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 902421099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 101,
+            "name": "Validate the material name",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:143"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 837777900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 102,
+            "name": "Validate the material creation date",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:151"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9415299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 103,
+            "name": "Validate the material created by field is \"Vishnu Nangunuri\"",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:170"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2500998
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 104,
+            "name": "Click on hamberger button for the created material",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 33841199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 105,
+            "name": "Click on Delete button",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:67"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 321947100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 106,
+            "name": "Validate the deleted message is fired sucessfully",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:74"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 889329599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 107,
+            "name": "Validate the material is not present in the table after the deletion",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3195899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 459024799
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 87
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "materials-module;validate-the-search-functionality-of-the-material-module",
+        "keyword": "Scenario Outline",
+        "line": 143,
+        "name": "Validate the search functionality of the material module",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 814936700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 118,
+            "name": "I open the DS application",
+            "match": {
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5413746299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 119,
+            "name": "I login with \"vishnu.nangunuri@kanerika.com\" and \"Viya121898@\"",
+            "match": {
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2856993600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 120,
+            "name": "I Click on Login button",
+            "match": {
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1358901498
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 121,
+            "name": "Click on Launch button",
+            "match": {
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8484847899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 122,
+            "name": "Validate user logged in to the DS Homepage",
+            "match": {
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11354256699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 123,
+            "name": "Click on Material certificates page",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1465561900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 124,
+            "name": "Click on plus icon",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1969760798
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 125,
+            "name": "Click on Add new material button",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1969271698
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 126,
+            "name": "Enter the Material Name as \"Test Material\"",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1264838598
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 127,
+            "name": "Click on Submit button",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1721689698
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 128,
+            "name": "Validate the sucess mesaage for material creation",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 905326499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 129,
+            "name": "Validate the created material is in the table",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 901610000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 130,
+            "name": "Click on search bar and enter the created material",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:177"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 185933999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 131,
+            "name": "Validate the search results are filtered based on search text",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:183"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17876500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 132,
+            "name": "Validate the material name",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:143"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12122698
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 133,
+            "name": "Validate the material creation date",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:151"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8948600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 134,
+            "name": "Validate the material created by field is \"Vishnu Nangunuri\"",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:170"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7109599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 135,
+            "name": "Click on hamberger button for the created material",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4040736099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 136,
+            "name": "Click on Delete button",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:67"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3968690200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 137,
+            "name": "Validate the deleted message is fired sucessfully",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:74"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 906784899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 138,
+            "name": "Validate the material is not present in the table after the deletion",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7163698
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 386987400
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 115
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "materials-module;validate-the-count-after-creating-and-deleting-a-material",
+        "keyword": "Scenario Outline",
+        "line": 169,
+        "name": "Validate the count after creating and deleting a material",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 667990499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 148,
+            "name": "I open the DS application",
+            "match": {
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5142399098
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 149,
+            "name": "I login with \"vishnu.nangunuri@kanerika.com\" and \"Viya121898@\"",
+            "match": {
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2866631199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 150,
+            "name": "I Click on Login button",
+            "match": {
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1324803199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 151,
+            "name": "Click on Launch button",
+            "match": {
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10520562199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 152,
+            "name": "Validate user logged in to the DS Homepage",
+            "match": {
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11042827600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 153,
+            "name": "Click on Material certificates page",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1745979699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 154,
+            "name": "get the count before the material creation",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:191"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32410099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 155,
+            "name": "Click on plus icon",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1931855198
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 156,
+            "name": "Click on Add new material button",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1937322299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 157,
+            "name": "Enter the Material Name as \"Test Material\"",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1371937700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 158,
+            "name": "Click on Submit button",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1638861999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 159,
+            "name": "Validate the sucess mesaage for material creation",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 908756099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 160,
+            "name": "Validate the created material is in the table",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1917027198
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 161,
+            "name": "Validate the material count is incremented by one",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:198"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 4274300400,
+              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m1\u001b[39m\nReceived: \u001b[31m3\u001b[39m\n    at Proxy.<anonymous> (D:\\DS_PLAYWRIGHT\\node_modules\\playwright\\lib\\matchers\\expect.js:221:24)\n    at CustomWorld.<anonymous> (D:\\DS_PLAYWRIGHT\\features\\step_definitions\\material_Step_definition.js:203:30)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 162,
+            "name": "Click on hamberger button for the created material",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:59"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 163,
+            "name": "Click on Delete button",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:67"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 164,
+            "name": "Validate the material count is decremented by one",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:209"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 484677700
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 145
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "materials-module;validate-functionality-of-bulk-upload-materials-with-csv-file",
+        "keyword": "Scenario Outline",
+        "line": 193,
+        "name": "Validate functionality of Bulk upload materials with csv file",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 602526500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 175,
+            "name": "I open the DS application",
+            "match": {
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4992292998
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 176,
+            "name": "I login with \"vishnu.nangunuri@kanerika.com\" and \"Viya121898@\"",
+            "match": {
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2335092600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 177,
+            "name": "I Click on Login button",
+            "match": {
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 108300400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 178,
+            "name": "Click on Launch button",
+            "match": {
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7216043898
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 179,
+            "name": "Validate user logged in to the DS Homepage",
+            "match": {
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10420508199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 180,
+            "name": "Click on Material certificates page",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1048516899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 181,
+            "name": "Click on plus icon",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 73105299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 182,
+            "name": "click on button bulk upload material list",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:217"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 117886499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 183,
+            "name": "upload a csv file which contains the list of materials",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:224"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 856405699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 184,
+            "name": "Click on savebutton from the csv upload modal",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:234"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 54258099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 185,
+            "name": "Validate the success message is fired sucessfully",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:241"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5227402100,
+              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('div[aria-describedby=\\'notistack-snackbar\\']')\nExpected string: \u001b[32m\"Upload Successful!\"\u001b[39m\nReceived: <element(s) not found>\nTimeout: 5000ms\n\nCall log:\n\u001b[2m  - Expect \"to.have.text\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('div[aria-describedby=\\'notistack-snackbar\\']')\u001b[22m\n\n    at Proxy.<anonymous> (D:\\DS_PLAYWRIGHT\\node_modules\\playwright\\lib\\matchers\\expect.js:221:24)\n    at CustomWorld.<anonymous> (D:\\DS_PLAYWRIGHT\\features\\step_definitions\\material_Step_definition.js:243:53)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 186,
+            "name": "compare the details from csv file with the material data in the UI",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:250"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 187,
+            "name": "I delete all the materials uploaded using csv bulk upload",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:260"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 188,
+            "name": "Validate materials are not present in the table",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:266"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 447485799
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 172
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "materials-module",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Materials Module",
+    "tags": [],
+    "uri": "features\\Materials.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login;valid-login",
+        "keyword": "Scenario Outline",
+        "line": 15,
+        "name": "Valid login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 584018900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I open the DS application",
+            "match": {
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5284872200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I login with \"vishnu.nangunuri@kanerika.com\" and \"Viya121898@\"",
+            "match": {
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2892305299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I Click on Login button",
+            "match": {
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1330048500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Click on Launch button",
+            "match": {
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8411424800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "Validate user logged in to the DS Homepage",
+            "match": {
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10906235099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 331543999
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login;valid-logout",
+        "keyword": "Scenario Outline",
+        "line": 33,
+        "name": "Valid logout",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 635094400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "I open the DS application",
+            "match": {
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5036775300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "I login with \"vishnu.nangunuri@kanerika.com\" and \"Viya121898@\"",
+            "match": {
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2263079199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "I Click on Login button",
+            "match": {
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 59194200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "Click on Launch button",
+            "match": {
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6478625599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "Validate user logged in to the DS Homepage",
+            "match": {
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10368732499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "I click on logout option",
+            "match": {
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1122803698
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "user should be logged out of the application",
+            "match": {
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7436489598
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 489454199
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 19
+          },
+          {
+            "name": "@Now",
+            "line": 19
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "login",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login",
+    "tags": [],
+    "uri": "features\\login.feature"
+  }
+]

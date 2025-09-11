@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "cucumber-js --tags '@Now' --format json:reports/cucumber_report.json",
+    "test": "cucumber-js --format json:reports/cucumber_report.json",
     "report": "node generate-html-report.js",
-    "run-with-tags": "cucumber-js --tags"
+    "test:now": "cucumber-js --tags \"@Now\" --format json:reports/cucumber_report.json",
+    "test:regression": "cucumber-js --tags \"@regression\" --format json:reports/cucumber_report.json"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +14,7 @@
   "description": "",
   "devDependencies": {
     "@cucumber/cucumber": "^12.2.0",
+    "@types/cucumber-html-reporter": "^5.0.0",
     "@types/node": "^24.3.1",
     "@types/xlsx": "^0.0.35",
     "cross-env": "^10.0.0",
