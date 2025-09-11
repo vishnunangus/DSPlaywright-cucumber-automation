@@ -27,7 +27,7 @@ jobs:
       run: npm install
 
     - name: Install Playwright Browsers
-      run: npm run install-browsers
+      uses: microsoft/playwright-github-action@v1
 
     - name: Run Playwright + Cucumber Tests
       run: npm run test
