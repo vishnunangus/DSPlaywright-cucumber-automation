@@ -3,11 +3,26 @@ const { Before, After, AfterStep, Status, setWorldConstructor , setDefaultTimeou
 const { POManager } = require('../../page_object/POManager');
 
 class CustomWorld {
+
+  constructor()
+  {
+    this.uploadedMaterials = [];
+    this.actualascorder =[];
+    this.actualdescorder =[];
+    this.originalMaterialList= [];
+    this.expectedascorder = [];
+    this.expecteddescorder= [];
+    this.materialpage = null;
+
+  }
+
+
   async launchBrowser() {
-    this.browser = await chromium.launch({ headless: false });
+    this.browser = await chromium.launch({ headless: true });
     this.context = await this.browser.newContext();
     this.page = await this.context.newPage();
     this.POManager = new POManager(this.page);
+    this.materialpage = this.POManager.getMaterialPage();
   }
 }
 

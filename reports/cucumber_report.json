@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 620759700
+              "duration": 26579415100
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 5344706599
+              "duration": 3270920198
             }
           },
           {
@@ -36,11 +36,11 @@
             "line": 7,
             "name": "I login with \"vishnu.nangunuri@kanerika.com\" and \"Viya121898@\"",
             "match": {
-              "location": "features\\step_definitions\\loginpage_Step_Definition.js:14"
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:16"
             },
             "result": {
               "status": "passed",
-              "duration": 2920666898
+              "duration": 1666014100
             }
           },
           {
@@ -49,11 +49,11 @@
             "line": 8,
             "name": "I Click on Login button",
             "match": {
-              "location": "features\\step_definitions\\loginpage_Step_Definition.js:20"
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:22"
             },
             "result": {
               "status": "passed",
-              "duration": 1318616799
+              "duration": 70050799
             }
           },
           {
@@ -62,11 +62,11 @@
             "line": 9,
             "name": "Click on Launch button",
             "match": {
-              "location": "features\\step_definitions\\loginpage_Step_Definition.js:26"
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:28"
             },
             "result": {
               "status": "passed",
-              "duration": 9488178299
+              "duration": 9995863199
             }
           },
           {
@@ -75,11 +75,11 @@
             "line": 10,
             "name": "Validate user logged in to the DS Homepage",
             "match": {
-              "location": "features\\step_definitions\\loginpage_Step_Definition.js:32"
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:34"
             },
             "result": {
               "status": "passed",
-              "duration": 10721181599
+              "duration": 36334561099
             }
           },
           {
@@ -88,11 +88,11 @@
             "line": 11,
             "name": "Click on Material certificates page",
             "match": {
-              "location": "features\\step_definitions\\material_Step_definition.js:11"
+              "location": "features\\step_definitions\\material_Step_definition.js:10"
             },
             "result": {
               "status": "passed",
-              "duration": 2096534500
+              "duration": 10753316499
             }
           },
           {
@@ -105,7 +105,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1952860599
+              "duration": 60921499
             }
           },
           {
@@ -118,7 +118,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1930564700
+              "duration": 284053298
             }
           },
           {
@@ -131,7 +131,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1401146700
+              "duration": 982260899
             }
           },
           {
@@ -144,7 +144,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1624250298
+              "duration": 53095900
             }
           },
           {
@@ -157,7 +157,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 903275100
+              "duration": 891672598
             }
           },
           {
@@ -170,7 +170,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 903629700
+              "duration": 897334699
             }
           },
           {
@@ -183,7 +183,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1246941100
+              "duration": 35875700
             }
           },
           {
@@ -196,7 +196,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 4017945600
+              "duration": 323089799
             }
           },
           {
@@ -209,7 +209,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 901020699
+              "duration": 896037699
             }
           },
           {
@@ -222,7 +222,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 8373000
+              "duration": 3522899
             }
           },
           {
@@ -230,13 +230,17 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 474348400
+              "duration": 72994900
             }
           }
         ],
         "tags": [
           {
             "name": "@Regression",
+            "line": 3
+          },
+          {
+            "name": "@Now",
             "line": 3
           }
         ],
@@ -254,7 +258,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 557459200
+              "duration": 26507465900
             }
           },
           {
@@ -267,7 +271,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 4823016600
+              "duration": 3183681100
             }
           },
           {
@@ -276,11 +280,11 @@
             "line": 35,
             "name": "I login with \"vishnu.nangunuri@kanerika.com\" and \"Viya121898@\"",
             "match": {
-              "location": "features\\step_definitions\\loginpage_Step_Definition.js:14"
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:16"
             },
             "result": {
               "status": "passed",
-              "duration": 1961314598
+              "duration": 1852939899
             }
           },
           {
@@ -289,11 +293,11 @@
             "line": 36,
             "name": "I Click on Login button",
             "match": {
-              "location": "features\\step_definitions\\loginpage_Step_Definition.js:20"
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:22"
             },
             "result": {
               "status": "passed",
-              "duration": 58477700
+              "duration": 56809398
             }
           },
           {
@@ -302,11 +306,11 @@
             "line": 37,
             "name": "Click on Launch button",
             "match": {
-              "location": "features\\step_definitions\\loginpage_Step_Definition.js:26"
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:28"
             },
             "result": {
               "status": "passed",
-              "duration": 6827615199
+              "duration": 9883838199
             }
           },
           {
@@ -315,11 +319,11 @@
             "line": 38,
             "name": "Validate user logged in to the DS Homepage",
             "match": {
-              "location": "features\\step_definitions\\loginpage_Step_Definition.js:32"
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:34"
             },
             "result": {
               "status": "passed",
-              "duration": 8929760800
+              "duration": 19434160699
             }
           },
           {
@@ -328,11 +332,11 @@
             "line": 39,
             "name": "Click on Material certificates page",
             "match": {
-              "location": "features\\step_definitions\\material_Step_definition.js:11"
+              "location": "features\\step_definitions\\material_Step_definition.js:10"
             },
             "result": {
               "status": "passed",
-              "duration": 1691936200
+              "duration": 1582630999
             }
           },
           {
@@ -345,7 +349,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 222478900
+              "duration": 73804298
             }
           },
           {
@@ -358,7 +362,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 345695900
+              "duration": 269364199
             }
           },
           {
@@ -371,7 +375,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1313006698
+              "duration": 521699700
             }
           },
           {
@@ -384,7 +388,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 78815498
+              "duration": 54454600
             }
           },
           {
@@ -397,7 +401,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 917537898
+              "duration": 892810600
             }
           },
           {
@@ -410,7 +414,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 901972000
+              "duration": 890341399
             }
           },
           {
@@ -423,7 +427,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 64879499
+              "duration": 42417199
             }
           },
           {
@@ -436,7 +440,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 408237099
+              "duration": 335074799
             }
           },
           {
@@ -449,7 +453,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 906254599
+              "duration": 888723799
             }
           },
           {
@@ -462,7 +466,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 6479599
+              "duration": 4979900
             }
           },
           {
@@ -470,7 +474,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 379308799
+              "duration": 67500000
             }
           }
         ],
@@ -494,7 +498,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 564523600
+              "duration": 26517931700
             }
           },
           {
@@ -507,7 +511,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 5078390899
+              "duration": 2370833200
             }
           },
           {
@@ -516,11 +520,11 @@
             "line": 62,
             "name": "I login with \"vishnu.nangunuri@kanerika.com\" and \"Viya121898@\"",
             "match": {
-              "location": "features\\step_definitions\\loginpage_Step_Definition.js:14"
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:16"
             },
             "result": {
               "status": "passed",
-              "duration": 2130825499
+              "duration": 2159308698
             }
           },
           {
@@ -529,11 +533,11 @@
             "line": 63,
             "name": "I Click on Login button",
             "match": {
-              "location": "features\\step_definitions\\loginpage_Step_Definition.js:20"
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:22"
             },
             "result": {
               "status": "passed",
-              "duration": 58589100
+              "duration": 77927900
             }
           },
           {
@@ -542,11 +546,11 @@
             "line": 64,
             "name": "Click on Launch button",
             "match": {
-              "location": "features\\step_definitions\\loginpage_Step_Definition.js:26"
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:28"
             },
             "result": {
               "status": "passed",
-              "duration": 7393625400
+              "duration": 10123972899
             }
           },
           {
@@ -555,11 +559,11 @@
             "line": 65,
             "name": "Validate user logged in to the DS Homepage",
             "match": {
-              "location": "features\\step_definitions\\loginpage_Step_Definition.js:32"
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:34"
             },
             "result": {
               "status": "passed",
-              "duration": 10345037099
+              "duration": 12390703400
             }
           },
           {
@@ -568,11 +572,11 @@
             "line": 66,
             "name": "Click on Material certificates page",
             "match": {
-              "location": "features\\step_definitions\\material_Step_definition.js:11"
+              "location": "features\\step_definitions\\material_Step_definition.js:10"
             },
             "result": {
               "status": "passed",
-              "duration": 1147447199
+              "duration": 2623288600
             }
           },
           {
@@ -585,7 +589,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 225417000
+              "duration": 77493599
             }
           },
           {
@@ -598,7 +602,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 335723999
+              "duration": 269085299
             }
           },
           {
@@ -611,7 +615,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1313444399
+              "duration": 1037350400
             }
           },
           {
@@ -624,7 +628,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 96888099
+              "duration": 62020798
             }
           },
           {
@@ -637,7 +641,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 899813000
+              "duration": 894674199
             }
           },
           {
@@ -650,7 +654,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 384401999
+              "duration": 900399998
             }
           },
           {
@@ -663,7 +667,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 81055799
+              "duration": 48083398
             }
           },
           {
@@ -676,7 +680,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 381482398
+              "duration": 276239598
             }
           },
           {
@@ -689,7 +693,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 20252298
+              "duration": 31419599
             }
           },
           {
@@ -702,7 +706,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 86031099
+              "duration": 50130700
             }
           },
           {
@@ -715,7 +719,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 911642899
+              "duration": 894606098
             }
           },
           {
@@ -728,7 +732,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 900076100
+              "duration": 891087798
             }
           },
           {
@@ -741,7 +745,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 448257698
+              "duration": 346335999
             }
           },
           {
@@ -754,7 +758,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 910878199
+              "duration": 900742398
             }
           },
           {
@@ -767,7 +771,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 6273200
+              "duration": 3818898
             }
           },
           {
@@ -775,7 +779,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 522738499
+              "duration": 91501300
             }
           }
         ],
@@ -799,7 +803,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 760920800
+              "duration": 26558125899
             }
           },
           {
@@ -812,7 +816,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 4944491400
+              "duration": 5380369598
             }
           },
           {
@@ -821,11 +825,11 @@
             "line": 91,
             "name": "I login with \"vishnu.nangunuri@kanerika.com\" and \"Viya121898@\"",
             "match": {
-              "location": "features\\step_definitions\\loginpage_Step_Definition.js:14"
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:16"
             },
             "result": {
               "status": "passed",
-              "duration": 2190617200
+              "duration": 2757308100
             }
           },
           {
@@ -834,11 +838,11 @@
             "line": 92,
             "name": "I Click on Login button",
             "match": {
-              "location": "features\\step_definitions\\loginpage_Step_Definition.js:20"
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:22"
             },
             "result": {
               "status": "passed",
-              "duration": 63061199
+              "duration": 63296599
             }
           },
           {
@@ -847,11 +851,11 @@
             "line": 93,
             "name": "Click on Launch button",
             "match": {
-              "location": "features\\step_definitions\\loginpage_Step_Definition.js:26"
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:28"
             },
             "result": {
               "status": "passed",
-              "duration": 7364069599
+              "duration": 6585623098
             }
           },
           {
@@ -860,11 +864,11 @@
             "line": 94,
             "name": "Validate user logged in to the DS Homepage",
             "match": {
-              "location": "features\\step_definitions\\loginpage_Step_Definition.js:32"
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:34"
             },
             "result": {
               "status": "passed",
-              "duration": 10663516100
+              "duration": 11081643400
             }
           },
           {
@@ -873,11 +877,11 @@
             "line": 95,
             "name": "Click on Material certificates page",
             "match": {
-              "location": "features\\step_definitions\\material_Step_definition.js:11"
+              "location": "features\\step_definitions\\material_Step_definition.js:10"
             },
             "result": {
               "status": "passed",
-              "duration": 1663547699
+              "duration": 3167746598
             }
           },
           {
@@ -890,7 +894,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 183961599
+              "duration": 94654498
             }
           },
           {
@@ -903,7 +907,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 305157399
+              "duration": 285789299
             }
           },
           {
@@ -916,7 +920,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1062525998
+              "duration": 964050698
             }
           },
           {
@@ -929,7 +933,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 45626300
+              "duration": 42168599
             }
           },
           {
@@ -942,7 +946,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 902421099
+              "duration": 905971899
             }
           },
           {
@@ -955,7 +959,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 837777900
+              "duration": 835514099
             }
           },
           {
@@ -968,7 +972,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 9415299
+              "duration": 10776398
             }
           },
           {
@@ -977,11 +981,11 @@
             "line": 103,
             "name": "Validate the material created by field is \"Vishnu Nangunuri\"",
             "match": {
-              "location": "features\\step_definitions\\material_Step_definition.js:170"
+              "location": "features\\step_definitions\\material_Step_definition.js:180"
             },
             "result": {
               "status": "passed",
-              "duration": 2500998
+              "duration": 4340900
             }
           },
           {
@@ -994,7 +998,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 33841199
+              "duration": 73319499
             }
           },
           {
@@ -1007,7 +1011,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 321947100
+              "duration": 315730799
             }
           },
           {
@@ -1020,7 +1024,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 889329599
+              "duration": 901081599
             }
           },
           {
@@ -1033,7 +1037,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3195899
+              "duration": 4794799
             }
           },
           {
@@ -1041,7 +1045,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 459024799
+              "duration": 81164700
             }
           }
         ],
@@ -1065,7 +1069,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 814936700
+              "duration": 17875587600
             }
           },
           {
@@ -1078,7 +1082,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 5413746299
+              "duration": 3559479299
             }
           },
           {
@@ -1087,11 +1091,11 @@
             "line": 119,
             "name": "I login with \"vishnu.nangunuri@kanerika.com\" and \"Viya121898@\"",
             "match": {
-              "location": "features\\step_definitions\\loginpage_Step_Definition.js:14"
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:16"
             },
             "result": {
               "status": "passed",
-              "duration": 2856993600
+              "duration": 1942330999
             }
           },
           {
@@ -1100,11 +1104,11 @@
             "line": 120,
             "name": "I Click on Login button",
             "match": {
-              "location": "features\\step_definitions\\loginpage_Step_Definition.js:20"
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:22"
             },
             "result": {
               "status": "passed",
-              "duration": 1358901498
+              "duration": 65959599
             }
           },
           {
@@ -1113,11 +1117,11 @@
             "line": 121,
             "name": "Click on Launch button",
             "match": {
-              "location": "features\\step_definitions\\loginpage_Step_Definition.js:26"
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:28"
             },
             "result": {
               "status": "passed",
-              "duration": 8484847899
+              "duration": 9085868100
             }
           },
           {
@@ -1126,11 +1130,11 @@
             "line": 122,
             "name": "Validate user logged in to the DS Homepage",
             "match": {
-              "location": "features\\step_definitions\\loginpage_Step_Definition.js:32"
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:34"
             },
             "result": {
               "status": "passed",
-              "duration": 11354256699
+              "duration": 10003449900
             }
           },
           {
@@ -1139,11 +1143,11 @@
             "line": 123,
             "name": "Click on Material certificates page",
             "match": {
-              "location": "features\\step_definitions\\material_Step_definition.js:11"
+              "location": "features\\step_definitions\\material_Step_definition.js:10"
             },
             "result": {
               "status": "passed",
-              "duration": 1465561900
+              "duration": 1003397798
             }
           },
           {
@@ -1156,7 +1160,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1969760798
+              "duration": 78557798
             }
           },
           {
@@ -1169,7 +1173,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1969271698
+              "duration": 273354399
             }
           },
           {
@@ -1182,7 +1186,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1264838598
+              "duration": 476451298
             }
           },
           {
@@ -1195,7 +1199,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1721689698
+              "duration": 44197200
             }
           },
           {
@@ -1208,7 +1212,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 905326499
+              "duration": 899884599
             }
           },
           {
@@ -1221,7 +1225,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 901610000
+              "duration": 899218799
             }
           },
           {
@@ -1230,11 +1234,11 @@
             "line": 130,
             "name": "Click on search bar and enter the created material",
             "match": {
-              "location": "features\\step_definitions\\material_Step_definition.js:177"
+              "location": "features\\step_definitions\\material_Step_definition.js:187"
             },
             "result": {
               "status": "passed",
-              "duration": 185933999
+              "duration": 55680899
             }
           },
           {
@@ -1243,11 +1247,11 @@
             "line": 131,
             "name": "Validate the search results are filtered based on search text",
             "match": {
-              "location": "features\\step_definitions\\material_Step_definition.js:183"
+              "location": "features\\step_definitions\\material_Step_definition.js:193"
             },
             "result": {
               "status": "passed",
-              "duration": 17876500
+              "duration": 6605799
             }
           },
           {
@@ -1260,7 +1264,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 12122698
+              "duration": 3209899
             }
           },
           {
@@ -1273,7 +1277,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 8948600
+              "duration": 2415598
             }
           },
           {
@@ -1282,11 +1286,11 @@
             "line": 134,
             "name": "Validate the material created by field is \"Vishnu Nangunuri\"",
             "match": {
-              "location": "features\\step_definitions\\material_Step_definition.js:170"
+              "location": "features\\step_definitions\\material_Step_definition.js:180"
             },
             "result": {
               "status": "passed",
-              "duration": 7109599
+              "duration": 3669499
             }
           },
           {
@@ -1299,7 +1303,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 4040736099
+              "duration": 53635000
             }
           },
           {
@@ -1312,7 +1316,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3968690200
+              "duration": 325207300
             }
           },
           {
@@ -1325,7 +1329,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 906784899
+              "duration": 895517598
             }
           },
           {
@@ -1338,7 +1342,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 7163698
+              "duration": 3357500
             }
           },
           {
@@ -1346,7 +1350,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 386987400
+              "duration": 75960299
             }
           }
         ],
@@ -1370,7 +1374,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 667990499
+              "duration": 18554313600
             }
           },
           {
@@ -1383,7 +1387,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 5142399098
+              "duration": 5834626199
             }
           },
           {
@@ -1392,11 +1396,11 @@
             "line": 149,
             "name": "I login with \"vishnu.nangunuri@kanerika.com\" and \"Viya121898@\"",
             "match": {
-              "location": "features\\step_definitions\\loginpage_Step_Definition.js:14"
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:16"
             },
             "result": {
               "status": "passed",
-              "duration": 2866631199
+              "duration": 1977162499
             }
           },
           {
@@ -1405,11 +1409,11 @@
             "line": 150,
             "name": "I Click on Login button",
             "match": {
-              "location": "features\\step_definitions\\loginpage_Step_Definition.js:20"
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:22"
             },
             "result": {
               "status": "passed",
-              "duration": 1324803199
+              "duration": 49411399
             }
           },
           {
@@ -1418,11 +1422,11 @@
             "line": 151,
             "name": "Click on Launch button",
             "match": {
-              "location": "features\\step_definitions\\loginpage_Step_Definition.js:26"
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:28"
             },
             "result": {
               "status": "passed",
-              "duration": 10520562199
+              "duration": 6402154598
             }
           },
           {
@@ -1431,11 +1435,11 @@
             "line": 152,
             "name": "Validate user logged in to the DS Homepage",
             "match": {
-              "location": "features\\step_definitions\\loginpage_Step_Definition.js:32"
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:34"
             },
             "result": {
               "status": "passed",
-              "duration": 11042827600
+              "duration": 26383197399
             }
           },
           {
@@ -1444,11 +1448,11 @@
             "line": 153,
             "name": "Click on Material certificates page",
             "match": {
-              "location": "features\\step_definitions\\material_Step_definition.js:11"
+              "location": "features\\step_definitions\\material_Step_definition.js:10"
             },
             "result": {
               "status": "passed",
-              "duration": 1745979699
+              "duration": 4249171998
             }
           },
           {
@@ -1457,11 +1461,11 @@
             "line": 154,
             "name": "get the count before the material creation",
             "match": {
-              "location": "features\\step_definitions\\material_Step_definition.js:191"
+              "location": "features\\step_definitions\\material_Step_definition.js:201"
             },
             "result": {
               "status": "passed",
-              "duration": 32410099
+              "duration": 887599100
             }
           },
           {
@@ -1474,7 +1478,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1931855198
+              "duration": 72225798
             }
           },
           {
@@ -1487,7 +1491,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1937322299
+              "duration": 272275399
             }
           },
           {
@@ -1500,7 +1504,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1371937700
+              "duration": 482872199
             }
           },
           {
@@ -1513,7 +1517,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1638861999
+              "duration": 51126399
             }
           },
           {
@@ -1526,7 +1530,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 908756099
+              "duration": 874845398
             }
           },
           {
@@ -1539,7 +1543,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1917027198
+              "duration": 882513598
             }
           },
           {
@@ -1548,12 +1552,11 @@
             "line": 161,
             "name": "Validate the material count is incremented by one",
             "match": {
-              "location": "features\\step_definitions\\material_Step_definition.js:198"
+              "location": "features\\step_definitions\\material_Step_definition.js:208"
             },
             "result": {
-              "status": "failed",
-              "duration": 4274300400,
-              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m1\u001b[39m\nReceived: \u001b[31m3\u001b[39m\n    at Proxy.<anonymous> (D:\\DS_PLAYWRIGHT\\node_modules\\playwright\\lib\\matchers\\expect.js:221:24)\n    at CustomWorld.<anonymous> (D:\\DS_PLAYWRIGHT\\features\\step_definitions\\material_Step_definition.js:203:30)"
+              "status": "passed",
+              "duration": 7285800
             }
           },
           {
@@ -1565,8 +1568,8 @@
               "location": "features\\step_definitions\\material_Step_definition.js:59"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 53050799
             }
           },
           {
@@ -1578,8 +1581,8 @@
               "location": "features\\step_definitions\\material_Step_definition.js:67"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 316175399
             }
           },
           {
@@ -1588,11 +1591,11 @@
             "line": 164,
             "name": "Validate the material count is decremented by one",
             "match": {
-              "location": "features\\step_definitions\\material_Step_definition.js:209"
+              "location": "features\\step_definitions\\material_Step_definition.js:219"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 1104498
             }
           },
           {
@@ -1600,7 +1603,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 484677700
+              "duration": 77283599
             }
           }
         ],
@@ -1624,7 +1627,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 602526500
+              "duration": 18559219400
             }
           },
           {
@@ -1637,7 +1640,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 4992292998
+              "duration": 3897768300
             }
           },
           {
@@ -1646,11 +1649,11 @@
             "line": 176,
             "name": "I login with \"vishnu.nangunuri@kanerika.com\" and \"Viya121898@\"",
             "match": {
-              "location": "features\\step_definitions\\loginpage_Step_Definition.js:14"
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:16"
             },
             "result": {
               "status": "passed",
-              "duration": 2335092600
+              "duration": 1805739799
             }
           },
           {
@@ -1659,11 +1662,11 @@
             "line": 177,
             "name": "I Click on Login button",
             "match": {
-              "location": "features\\step_definitions\\loginpage_Step_Definition.js:20"
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:22"
             },
             "result": {
               "status": "passed",
-              "duration": 108300400
+              "duration": 54352800
             }
           },
           {
@@ -1672,11 +1675,11 @@
             "line": 178,
             "name": "Click on Launch button",
             "match": {
-              "location": "features\\step_definitions\\loginpage_Step_Definition.js:26"
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:28"
             },
             "result": {
               "status": "passed",
-              "duration": 7216043898
+              "duration": 7029680799
             }
           },
           {
@@ -1685,11 +1688,11 @@
             "line": 179,
             "name": "Validate user logged in to the DS Homepage",
             "match": {
-              "location": "features\\step_definitions\\loginpage_Step_Definition.js:32"
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:34"
             },
             "result": {
               "status": "passed",
-              "duration": 10420508199
+              "duration": 17622389800
             }
           },
           {
@@ -1698,11 +1701,11 @@
             "line": 180,
             "name": "Click on Material certificates page",
             "match": {
-              "location": "features\\step_definitions\\material_Step_definition.js:11"
+              "location": "features\\step_definitions\\material_Step_definition.js:10"
             },
             "result": {
               "status": "passed",
-              "duration": 1048516899
+              "duration": 2076141699
             }
           },
           {
@@ -1715,7 +1718,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 73105299
+              "duration": 84374098
             }
           },
           {
@@ -1724,11 +1727,11 @@
             "line": 182,
             "name": "click on button bulk upload material list",
             "match": {
-              "location": "features\\step_definitions\\material_Step_definition.js:217"
+              "location": "features\\step_definitions\\material_Step_definition.js:227"
             },
             "result": {
               "status": "passed",
-              "duration": 117886499
+              "duration": 269307799
             }
           },
           {
@@ -1737,11 +1740,11 @@
             "line": 183,
             "name": "upload a csv file which contains the list of materials",
             "match": {
-              "location": "features\\step_definitions\\material_Step_definition.js:224"
+              "location": "features\\step_definitions\\material_Step_definition.js:234"
             },
             "result": {
               "status": "passed",
-              "duration": 856405699
+              "duration": 839701498
             }
           },
           {
@@ -1750,11 +1753,11 @@
             "line": 184,
             "name": "Click on savebutton from the csv upload modal",
             "match": {
-              "location": "features\\step_definitions\\material_Step_definition.js:234"
+              "location": "features\\step_definitions\\material_Step_definition.js:244"
             },
             "result": {
               "status": "passed",
-              "duration": 54258099
+              "duration": 44371599
             }
           },
           {
@@ -1763,12 +1766,11 @@
             "line": 185,
             "name": "Validate the success message is fired sucessfully",
             "match": {
-              "location": "features\\step_definitions\\material_Step_definition.js:241"
+              "location": "features\\step_definitions\\material_Step_definition.js:251"
             },
             "result": {
-              "status": "failed",
-              "duration": 5227402100,
-              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('div[aria-describedby=\\'notistack-snackbar\\']')\nExpected string: \u001b[32m\"Upload Successful!\"\u001b[39m\nReceived: <element(s) not found>\nTimeout: 5000ms\n\nCall log:\n\u001b[2m  - Expect \"to.have.text\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('div[aria-describedby=\\'notistack-snackbar\\']')\u001b[22m\n\n    at Proxy.<anonymous> (D:\\DS_PLAYWRIGHT\\node_modules\\playwright\\lib\\matchers\\expect.js:221:24)\n    at CustomWorld.<anonymous> (D:\\DS_PLAYWRIGHT\\features\\step_definitions\\material_Step_definition.js:243:53)"
+              "status": "passed",
+              "duration": 944199600
             }
           },
           {
@@ -1777,11 +1779,11 @@
             "line": 186,
             "name": "compare the details from csv file with the material data in the UI",
             "match": {
-              "location": "features\\step_definitions\\material_Step_definition.js:250"
+              "location": "features\\step_definitions\\material_Step_definition.js:260"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 892592699
             }
           },
           {
@@ -1790,11 +1792,11 @@
             "line": 187,
             "name": "I delete all the materials uploaded using csv bulk upload",
             "match": {
-              "location": "features\\step_definitions\\material_Step_definition.js:260"
+              "location": "features\\step_definitions\\material_Step_definition.js:270"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 2389257900
             }
           },
           {
@@ -1803,11 +1805,11 @@
             "line": 188,
             "name": "Validate materials are not present in the table",
             "match": {
-              "location": "features\\step_definitions\\material_Step_definition.js:266"
+              "location": "features\\step_definitions\\material_Step_definition.js:276"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 5492798
             }
           },
           {
@@ -1815,7 +1817,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 447485799
+              "duration": 70153399
             }
           }
         ],
@@ -1823,6 +1825,272 @@
           {
             "name": "@Regression",
             "line": 172
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "materials-module;validate-functionality-of-sorting-the-columns-material-names",
+        "keyword": "Scenario Outline",
+        "line": 222,
+        "name": "Validate functionality of sorting the columns material names",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 13693925199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 200,
+            "name": "I open the DS application",
+            "match": {
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4125991099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 201,
+            "name": "I login with \"vishnu.nangunuri@kanerika.com\" and \"Viya121898@\"",
+            "match": {
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2039777199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 202,
+            "name": "I Click on Login button",
+            "match": {
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 63296600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 203,
+            "name": "Click on Launch button",
+            "match": {
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6526518600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 204,
+            "name": "Validate user logged in to the DS Homepage",
+            "match": {
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17229428999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 205,
+            "name": "Click on Material certificates page",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1565786598
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 206,
+            "name": "Click on plus icon",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 88037100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 207,
+            "name": "click on button bulk upload material list",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:227"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 270232699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 208,
+            "name": "upload a csv file which contains the list of materials",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:234"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 336263099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 209,
+            "name": "Click on savebutton from the csv upload modal",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:244"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 51167099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 210,
+            "name": "Validate the success message is fired sucessfully",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:251"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 929448099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 211,
+            "name": "compare the details from csv file with the material data in the UI",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:260"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 879797900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 212,
+            "name": "Materials are uploaded click on sort button and fetch the material list",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:286"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 894531698
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 213,
+            "name": "Validate the materials are sorted in ascending order",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:312"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1299298
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 214,
+            "name": "Materials are uploaded click on sort button",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:318"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1411930799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 215,
+            "name": "Validate material names are sorted in descending order",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:348"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1586699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 216,
+            "name": "I delete all the materials uploaded using csv bulk upload",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:270"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2420625298
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 217,
+            "name": "Validate materials are not present in the table",
+            "match": {
+              "location": "features\\step_definitions\\material_Step_definition.js:276"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5488098
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 67974599
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 197
           }
         ],
         "type": "scenario"
@@ -1850,7 +2118,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 584018900
+              "duration": 15159886800
             }
           },
           {
@@ -1863,7 +2131,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 5284872200
+              "duration": 4100808499
             }
           },
           {
@@ -1872,11 +2140,11 @@
             "line": 7,
             "name": "I login with \"vishnu.nangunuri@kanerika.com\" and \"Viya121898@\"",
             "match": {
-              "location": "features\\step_definitions\\loginpage_Step_Definition.js:14"
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:16"
             },
             "result": {
               "status": "passed",
-              "duration": 2892305299
+              "duration": 1704989499
             }
           },
           {
@@ -1885,11 +2153,11 @@
             "line": 8,
             "name": "I Click on Login button",
             "match": {
-              "location": "features\\step_definitions\\loginpage_Step_Definition.js:20"
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:22"
             },
             "result": {
               "status": "passed",
-              "duration": 1330048500
+              "duration": 53942798
             }
           },
           {
@@ -1898,11 +2166,11 @@
             "line": 9,
             "name": "Click on Launch button",
             "match": {
-              "location": "features\\step_definitions\\loginpage_Step_Definition.js:26"
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:28"
             },
             "result": {
               "status": "passed",
-              "duration": 8411424800
+              "duration": 6609366699
             }
           },
           {
@@ -1911,11 +2179,11 @@
             "line": 10,
             "name": "Validate user logged in to the DS Homepage",
             "match": {
-              "location": "features\\step_definitions\\loginpage_Step_Definition.js:32"
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:34"
             },
             "result": {
               "status": "passed",
-              "duration": 10906235099
+              "duration": 42830415599
             }
           },
           {
@@ -1923,7 +2191,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 331543999
+              "duration": 75021300
             }
           }
         ],
@@ -1947,7 +2215,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 635094400
+              "duration": 14814962500
             }
           },
           {
@@ -1960,7 +2228,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 5036775300
+              "duration": 2435512000
             }
           },
           {
@@ -1969,11 +2237,11 @@
             "line": 23,
             "name": "I login with \"vishnu.nangunuri@kanerika.com\" and \"Viya121898@\"",
             "match": {
-              "location": "features\\step_definitions\\loginpage_Step_Definition.js:14"
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:16"
             },
             "result": {
               "status": "passed",
-              "duration": 2263079199
+              "duration": 1676758899
             }
           },
           {
@@ -1982,11 +2250,11 @@
             "line": 24,
             "name": "I Click on Login button",
             "match": {
-              "location": "features\\step_definitions\\loginpage_Step_Definition.js:20"
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:22"
             },
             "result": {
               "status": "passed",
-              "duration": 59194200
+              "duration": 44311399
             }
           },
           {
@@ -1995,11 +2263,11 @@
             "line": 25,
             "name": "Click on Launch button",
             "match": {
-              "location": "features\\step_definitions\\loginpage_Step_Definition.js:26"
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:28"
             },
             "result": {
               "status": "passed",
-              "duration": 6478625599
+              "duration": 9466136899
             }
           },
           {
@@ -2008,11 +2276,11 @@
             "line": 26,
             "name": "Validate user logged in to the DS Homepage",
             "match": {
-              "location": "features\\step_definitions\\loginpage_Step_Definition.js:32"
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:34"
             },
             "result": {
               "status": "passed",
-              "duration": 10368732499
+              "duration": 12193966298
             }
           },
           {
@@ -2021,11 +2289,11 @@
             "line": 27,
             "name": "I click on logout option",
             "match": {
-              "location": "features\\step_definitions\\loginpage_Step_Definition.js:38"
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:40"
             },
             "result": {
               "status": "passed",
-              "duration": 1122803698
+              "duration": 1379498099
             }
           },
           {
@@ -2034,11 +2302,11 @@
             "line": 28,
             "name": "user should be logged out of the application",
             "match": {
-              "location": "features\\step_definitions\\loginpage_Step_Definition.js:45"
+              "location": "features\\step_definitions\\loginpage_Step_Definition.js:47"
             },
             "result": {
               "status": "passed",
-              "duration": 7436489598
+              "duration": 8040834400
             }
           },
           {
@@ -2046,17 +2314,13 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 489454199
+              "duration": 138050700
             }
           }
         ],
         "tags": [
           {
             "name": "@Regression",
-            "line": 19
-          },
-          {
-            "name": "@Now",
             "line": 19
           }
         ],

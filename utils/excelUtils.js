@@ -23,6 +23,7 @@ module.exports = {
 
         readExcel:async function(filePath)
     {
+        // @ts-ignore
         const workbook = new ExcelJS.workbook();
 
         await workbook.xlsx.readFile(filePath);

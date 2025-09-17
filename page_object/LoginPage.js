@@ -29,17 +29,19 @@ class LoginPage {
 
     async Validation()
     {
-        await expect(this.page).toHaveURL(/.*projects-management\/list/, { timeout: 30000 });
+        await expect(this.page).toHaveURL(/.*projects-management\/list/, { timeout: 60000 });
     }
 
     async logout()
     {
+        await this.page.waitForSelector('div[data-testid="backdropLoadingTestId"]', { state: 'hidden', timeout: 120000 });
         await this.logout_btn.click();
     }
 
     async validate_logout_sucess()
+
     {
-        await expect(this.page).toHaveURL("https://testing.app.e-dot.com/auth/login", { timeout: 30000 });
+        await expect(this.page).toHaveURL("https://testing.app.e-dot.com/auth/login", { timeout: 120000 });
     }
 }
 

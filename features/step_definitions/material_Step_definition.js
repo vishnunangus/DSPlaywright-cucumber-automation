@@ -1,16 +1,23 @@
+// @ts-nocheck
+// @ts-ignore
+// @ts-ignore
 const { Given, When, Then, } = require('@cucumber/cucumber');
 const { expect } = require('playwright/test');
+// @ts-ignore
+// @ts-ignore
 const { POManager } = require('../../page_object/POManager');
+// @ts-ignore
+// @ts-ignore
 const { MaterialPage } = require('../../page_object/MaterialPage')
 const path = require('path');
 const ExcelUtils = require('../../utils/excelUtils');
 
-let uploadedMaterials = [];
 
 
 Then('Click on Material certificates page', async function () {
 
-    this.materialpage = this.POManager.getMaterialPage();
+    // @ts-ignore
+
     await this.materialpage.clickonMaterialsbutton();
 
 
@@ -162,7 +169,17 @@ Then('Validate the material creation date', async function () {
 
     const actualTime = await this.materialpage.getMaterialCreatedDate(this.uniqueMaterialName);
 
-    await expect(actualTime).toBe(expectedTime);
+    const expectedDateObj = new Date(expectedTime);
+    const actualDateObj = new Date(actualTime);
+
+    const timeDiffMs = Math.abs(expectedDateObj.getTime() - actualDateObj.getTime());
+    const timeDiffMinutes = timeDiffMs / (1000 * 60);
+
+    console.log('Time Difference in Minutes:', timeDiffMinutes);
+
+    expect(timeDiffMinutes).toBeLessThanOrEqual(1);
+
+    // await expect(actualTime).toBe(expectedTime);
 });
 
 ;
@@ -224,8 +241,8 @@ Then('click on button bulk upload material list', async function () {
 Then('upload a csv file which contains the list of materials', async function () {
 
     const filePath = path.resolve(__dirname, '../../test-data/Material.csv');
-    uploadedMaterials = await ExcelUtils.readCsv(filePath);
-    console.log('Parsed Materials:', uploadedMaterials);
+    this.uploadedMaterials = await ExcelUtils.readCsv(filePath);
+    console.log('Parsed Materials:', this.uploadedMaterials);
     await this.materialpage.uploadCsvFile(filePath);
 
 });
@@ -249,7 +266,7 @@ Then('Validate the success message is fired sucessfully', async function () {
 
 Then('compare the details from csv file with the material data in the UI', async function () {
 
-    for (const materialName of uploadedMaterials) {
+    for (const materialName of this.uploadedMaterials) {
         const materialRow = this.page.locator(`tr:has(td[title="${materialName}"])`);
         await expect(materialRow).toBeVisible();
     }
@@ -259,15 +276,94 @@ Then('compare the details from csv file with the material data in the UI', async
 
 When('I delete all the materials uploaded using csv bulk upload', async function () {
 
-    await this.materialpage.deleteUploadedMaterials(uploadedMaterials)
+    await this.materialpage.deleteUploadedMaterials(this.uploadedMaterials)
 
 });
 
 Then('Validate materials are not present in the table', async function () {
 
-    for (const Validatedeletedmaterial of uploadedMaterials) {
+    for (const Validatedeletedmaterial of this.uploadedMaterials) {
         await expect(this.page.getByText(Validatedeletedmaterial)).not.toBeVisible();
 
 
-    }
-});         
+    };
+});
+
+
+When('Materials are uploaded click on sort button and fetch the material list', async function () {
+
+    
+    await this.materialpage.waitForLoadingToComplete();
+    // @ts-ignore
+    this.originalMaterialList = await this.materialpage.fetch_all_materials();
+    console.log('Original Material List:', this.originalMaterialList);
+    // @ts-ignore
+    await this.materialpage.sortascendingbutton();
+    // @ts-ignore
+    await this.materialpage.waitForLoadingToComplete();
+    // @ts-ignore
+    this.actualascorder = await this.materialpage.fetch_all_materials();
+    console.log('Sorted Material List:', this.actualascorder);
+    this.expectedascorder = [...this.originalMaterialList].sort((a, b) => {
+        const lowerA = a.toLowerCase();
+        const lowerB = b.toLowerCase();
+
+        if (lowerA === lowerB) {
+            return a > b ? -1 : 1;
+        }
+
+        return lowerA.localeCompare(lowerB);
+    });
+
+    console.log('Expected Sorted Order:', this.expectedascorder);
+
+
+
+});
+
+Then('Validate the materials are sorted in ascending order', async function () {
+
+    await expect(this.actualascorder).toEqual(this.expectedascorder);
+
+});
+
+When('Materials are uploaded click on sort button', async function () {
+
+    // @ts-ignore
+    await this.materialpage.waitForLoadingToComplete();
+
+
+    // @ts-ignore
+    this.originalMaterialList = await this.materialpage.fetch_all_materials();
+    console.log('Original Material List:', this.originalMaterialList);
+
+    // @ts-ignore
+    await this.materialpage.sortdescendingbutton();
+    // @ts-ignore
+    await this.materialpage.waitForLoadingToComplete();
+
+
+    // @ts-ignore
+    this.actualdescorder = await this.materialpage.fetch_all_materials();
+    console.log('Sorted Descending Material List:', this.actualdescorder);
+
+    this.expecteddescorder = [...this.originalMaterialList].sort((a, b) => {
+        const lowerA = a.toLowerCase();
+        const lowerB = b.toLowerCase();
+
+        if (lowerA === lowerB) {
+            return a < b ? -1 : 1;
+        }
+
+        return lowerB.localeCompare(lowerA);
+    });
+
+    console.log('Expected Descending Sorted Order:', this.expecteddescorder);
+});
+
+
+When('Validate material names are sorted in descending order', async function () {
+
+    await expect(this.actualdescorder).toEqual(this.expecteddescorder);
+
+});

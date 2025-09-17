@@ -11,7 +11,6 @@ class MaterialPage {
         this.addMaterialbtn = page.getByText('Manually add new materials one at a time.');
         this.materialname_txtbox = page.locator("input[placeholder='Enter Material Name...']");
         this.submit_btn = page.locator('footer button:has-text("Submit")');
-        //this.delete_Btn = page.getByText('Delete');
         this.delete_Btn = page.locator("ul[role='menu'] li:has-text('Delete')");
         this.confirmdelete = page.locator('button[data-testid="accessButtonTestId"]');
         this.edit_btn = page.getByText('Edit');
@@ -22,6 +21,9 @@ class MaterialPage {
         this.uploadsavebtn = page.getByText("Save");
         this.closebtn = page.locator("footer[class='footer'] button");
         this.bulksuccess_msg = page.locator("div[aria-describedby='notistack-snackbar']");
+        this.sortascending = page.locator("button[title='Material'] svg:nth-child(1)");
+        this.sortdescending = page.locator("button[title='Material'] svg");
+        this.materiallist = page.locator("tr td:nth-child(1)");
 
     }
 
@@ -137,6 +139,26 @@ class MaterialPage {
 
         }
     }
+
+    async fetch_all_materials()
+    {
+        return this.materiallist.allTextContents();
+    }
+
+    async sortascendingbutton()
+    {
+        await this.sortascending.click();
+    }
+
+    async sortdescendingbutton()
+    {
+        await this.sortdescending.click();
+    }
+
+    async waitForLoadingToComplete() {
+
+    await this.page.waitForSelector('tr[data-testid="skeletonRow"]', { state: 'detached' });
+}
 
 }
 

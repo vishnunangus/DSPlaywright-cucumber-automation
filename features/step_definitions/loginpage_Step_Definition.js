@@ -6,7 +6,9 @@ const { POManager } = require('../../page_object/POManager');
 
 Given('I open the DS application', async function () {
 
+  // @ts-ignore
   this.loginpage = this.POManager.getLoginPage();
+  // @ts-ignore
   await this.page.goto('https://testing.app.e-dot.com/auth/login')
 
 });

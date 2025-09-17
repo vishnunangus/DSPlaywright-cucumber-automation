@@ -1,6 +1,6 @@
 Feature: Materials Module
 
-    @Regression 
+    @Regression @Now
 
     Scenario Outline: Create a new material
         Given I open the DS application
@@ -169,7 +169,7 @@ Feature: Materials Module
             | vishnu.nangunuri@kanerika.com | Viya121898@ |
 
 
-    @Regression
+    @Regression 
 
     Scenario Outline: Validate functionality of Bulk upload materials with csv file
         Given I open the DS application
@@ -193,3 +193,30 @@ Feature: Materials Module
             | vishnu.nangunuri@kanerika.com | Viya121898@ |
 
 
+
+@Regression
+
+Scenario Outline: Validate functionality of sorting the columns material names 
+        Given I open the DS application
+        When I login with "<username>" and "<password>"
+        Then I Click on Login button
+        And Click on Launch button
+        Then Validate user logged in to the DS Homepage
+        Then Click on Material certificates page
+        Then Click on plus icon
+        And click on button bulk upload material list
+        Then upload a csv file which contains the list of materials
+        And Click on savebutton from the csv upload modal
+        Then Validate the success message is fired sucessfully
+        And compare the details from csv file with the material data in the UI
+        When Materials are uploaded click on sort button and fetch the material list 
+        Then Validate the materials are sorted in ascending order 
+        When Materials are uploaded click on sort button 
+        And Validate material names are sorted in descending order 
+        When I delete all the materials uploaded using csv bulk upload
+        Then Validate materials are not present in the table
+
+
+        Examples:
+            | username                      | password    |
+            | vishnu.nangunuri@kanerika.com | Viya121898@ |

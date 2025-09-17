@@ -16,7 +16,7 @@ Feature: Login
 
 
 
-@Regression @Now
+@Regression
 
     Scenario Outline: Valid logout 
         Given I open the DS application
