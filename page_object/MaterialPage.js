@@ -1,6 +1,6 @@
 const { expect } = require("playwright/test");
 
-//new
+
 
 class MaterialPage {
     constructor(page) {
@@ -24,6 +24,7 @@ class MaterialPage {
         this.sortascending = page.locator("button[title='Material'] svg:nth-child(1)");
         this.sortdescending = page.locator("button[title='Material'] svg");
         this.materiallist = page.locator("tr td:nth-child(1)");
+        this.nux = page.getByText('Click here to add a new material');
 
     }
 
@@ -62,6 +63,23 @@ class MaterialPage {
         await this.confirmdelete.click();
     }
 
+    async validateDeleteSuccessMessage() {
+    const snackbar = this.page.locator('div[aria-describedby="notistack-snackbar"]').first();
+    await expect(snackbar).toHaveText('Material deleted successfully', { timeout: 10000 });
+    await expect(snackbar).toBeVisible();
+}
+
+ async validateEditedSuccessMessage() {
+    const snackbar = this.page.locator('div[aria-describedby="notistack-snackbar"]').first();
+    await expect(snackbar).toHaveText('Material edited successfully', { timeout: 10000 });
+    await expect(snackbar).toBeVisible();
+}
+
+async validatecreatedSuccessMessage() {
+    const snackbar = this.page.locator('div[aria-describedby="notistack-snackbar"]').first();
+    await expect(snackbar).toHaveText('Material created successfully', { timeout: 10000 });
+    await expect(snackbar).toBeVisible();
+}
     async clickeditbutton() {
         await this.edit_btn.click();
     }
@@ -140,26 +158,27 @@ class MaterialPage {
         }
     }
 
-    async fetch_all_materials()
-    {
+    async fetch_all_materials() {
         return this.materiallist.allTextContents();
     }
 
-    async sortascendingbutton()
-    {
+    async sortascendingbutton() {
         await this.sortascending.click();
     }
 
-    async sortdescendingbutton()
-    {
+    async sortdescendingbutton() {
         await this.sortdescending.click();
     }
 
     async waitForLoadingToComplete() {
 
-    await this.page.waitForSelector('tr[data-testid="skeletonRow"]', { state: 'detached' });
-}
+        await this.page.waitForSelector('tr[data-testid="skeletonRow"]', { state: 'detached' });
+    }
 
+    async clickoncreatematerialNux()
+    {
+        await this.nux.click();
+    }
 }
 
 module.exports = { MaterialPage };

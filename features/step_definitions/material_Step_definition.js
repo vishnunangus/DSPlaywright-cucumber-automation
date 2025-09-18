@@ -1,13 +1,7 @@
-// @ts-nocheck
-// @ts-ignore
-// @ts-ignore
+
 const { Given, When, Then, } = require('@cucumber/cucumber');
 const { expect } = require('playwright/test');
-// @ts-ignore
-// @ts-ignore
 const { POManager } = require('../../page_object/POManager');
-// @ts-ignore
-// @ts-ignore
 const { MaterialPage } = require('../../page_object/MaterialPage')
 const path = require('path');
 const ExcelUtils = require('../../utils/excelUtils');
@@ -52,7 +46,7 @@ Then('Click on Submit button', async function () {
 
 Then('Validate the sucess mesaage for material creation', async function () {
 
-    await expect(this.page.getByText('Material created successfully')).toBeVisible();
+    await this.materialpage.validatecreatedSuccessMessage();
 
 
 });
@@ -79,8 +73,9 @@ Then('Click on Delete button', async function () {
 
 
 Then('Validate the deleted message is fired sucessfully', async function () {
+    
 
-    await expect(this.page.getByText('Material deleted successfully')).toBeVisible();
+    await this.materialpage.validateDeleteSuccessMessage();
 });
 
 Then('Validate the material is not present in the table after the deletion', async function () {
@@ -117,7 +112,7 @@ Then('Click on save button', async function () {
 
 Then('Validate the edited message fired sucessfully', async function () {
 
-    await expect(this.page.getByText('Material edited successfully')).toBeVisible();
+    await this.materialpage.validateEditedSuccessMessage();
 });
 
 Then('Validate the updated name of material is present in the table', async function () {
@@ -136,8 +131,7 @@ Then('Click on Delete button of the updated material', async function () {
 
 Then('Validate the deleted message is fired sucessfully for updated material', async function () {
 
-    await expect(this.page.getByText('Material deleted successfully')).toBeVisible();
-
+    await this.materialpage.validateDeleteSuccessMessage();
 });
 
 Then('Validate the updated material is not present in the table after the deletion', async function () {
@@ -179,7 +173,6 @@ Then('Validate the material creation date', async function () {
 
     expect(timeDiffMinutes).toBeLessThanOrEqual(1);
 
-    // await expect(actualTime).toBe(expectedTime);
 });
 
 ;
@@ -292,16 +285,16 @@ Then('Validate materials are not present in the table', async function () {
 
 When('Materials are uploaded click on sort button and fetch the material list', async function () {
 
-    
+
     await this.materialpage.waitForLoadingToComplete();
-    // @ts-ignore
+    
     this.originalMaterialList = await this.materialpage.fetch_all_materials();
     console.log('Original Material List:', this.originalMaterialList);
-    // @ts-ignore
+
     await this.materialpage.sortascendingbutton();
-    // @ts-ignore
+    
     await this.materialpage.waitForLoadingToComplete();
-    // @ts-ignore
+   
     this.actualascorder = await this.materialpage.fetch_all_materials();
     console.log('Sorted Material List:', this.actualascorder);
     this.expectedascorder = [...this.originalMaterialList].sort((a, b) => {
@@ -329,21 +322,18 @@ Then('Validate the materials are sorted in ascending order', async function () {
 
 When('Materials are uploaded click on sort button', async function () {
 
-    // @ts-ignore
+  
     await this.materialpage.waitForLoadingToComplete();
-
-
-    // @ts-ignore
-    this.originalMaterialList = await this.materialpage.fetch_all_materials();
+   this.originalMaterialList = await this.materialpage.fetch_all_materials();
     console.log('Original Material List:', this.originalMaterialList);
 
-    // @ts-ignore
+   
     await this.materialpage.sortdescendingbutton();
-    // @ts-ignore
+    
     await this.materialpage.waitForLoadingToComplete();
 
 
-    // @ts-ignore
+   
     this.actualdescorder = await this.materialpage.fetch_all_materials();
     console.log('Sorted Descending Material List:', this.actualdescorder);
 
@@ -367,3 +357,50 @@ When('Validate material names are sorted in descending order', async function ()
     await expect(this.actualdescorder).toEqual(this.expecteddescorder);
 
 });
+
+ When('Ensure no materials are present in the table', async  function () {
+   await this.materialpage.clickonMaterialsbutton();
+    const count = await this.materialpage.getMaterialCount();
+    console.log('Current Material Count:', count);
+
+    if (count > 0) {
+        const allMaterials = await this.materialpage.fetch_all_materials(); 
+        console.log('Existing materials:', allMaterials);
+
+        for (const materialName of allMaterials) {
+            await this.materialpage.clickhamberger(materialName);
+            await this.materialpage.clickdeletebutton();
+            await this.materialpage.clickconfirmdeletebutton();
+
+            await this.page.waitForTimeout(5000); // small wait for delete completion
+        }
+
+        // Validate list is empty now
+        await this.page.waitForTimeout(10000)
+        const finalCount = await this.materialpage.getMaterialCount();
+
+        console.log('Material Count after cleanup:', finalCount);
+        expect(finalCount).toBe(0);
+    } else {
+        console.log('No materials found, proceeding...');
+    }
+         });
+
+Then('click on add new material text from the table', async function () {
+          
+    await this.materialpage.clickoncreatematerialNux();
+         });         
+
+Then('Enter the same Material Name again in the text box', async function () {
+
+    await this.materialpage.Entermaterialname(this.uniqueMaterialName);
+       
+         });
+             
+
+Then('Validate the error mesaage for duplicated material creation', async function () {
+
+await expect(this.page.getByText("Validation failed: Name has already been taken")).toBeVisible();
+
+
+         });

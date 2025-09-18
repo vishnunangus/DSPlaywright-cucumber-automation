@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "install-browsers": "npx playwright install --with-deps",
-    "test": "cucumber-js --require ./features/step_definitions/**/*.js --require ./features/support/**/*.js --format json:reports/cucumber_report.json --parallel 4",
+    "test": "cucumber-js --require ./features/step_definitions/**/*.js --require ./features/support/**/*.js --format json:reports/cucumber_report.json",
     "report": "node generate-html-report.js",
     "test:now": "cucumber-js --tags \"@Now\" --format json:reports/cucumber_report.json",
     "test:regression": "cucumber-js --tags \"@regression\" --format json:reports/cucumber_report.json"
