@@ -12,6 +12,7 @@ class CustomWorld {
     this.expectedascorder = [];
     this.expecteddescorder = [];
     this.materialpage = null;
+    this.certificatespage = null;
 
   }
 
@@ -22,6 +23,7 @@ class CustomWorld {
     this.page = await this.context.newPage();
     this.POManager = new POManager(this.page);
     this.materialpage = this.POManager.getMaterialPage();
+    this.certificatespage = this.POManager.getCertificatesPage();
   }
 }
 
@@ -43,3 +45,5 @@ AfterStep(async function ({ result }) {
 After(async function () {
  // await this.browser.close();
 });
+
+module.exports = { CustomWorld }; 

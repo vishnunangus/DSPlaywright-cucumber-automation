@@ -1,5 +1,6 @@
 const { LoginPage } = require('../page_object/LoginPage')
 const { MaterialPage } = require('../page_object/MaterialPage')
+const { CertificatesPage } = require('../page_object/CertificatesPage')
 
 class POManager {
 
@@ -7,6 +8,7 @@ class POManager {
         this.page = page;
         this.loginpage = new LoginPage(page);
         this.materialpage = new MaterialPage(page);
+        this.certificatespage = new CertificatesPage(page)
     }
 
 
@@ -18,6 +20,12 @@ class POManager {
     getMaterialPage() {
 
         return this.materialpage;
+    }
+
+    getCertificatesPage()
+    {
+        return this.certificatespage;
+
     }
 
 }

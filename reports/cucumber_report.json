@@ -4,303 +4,186 @@
     "elements": [
       {
         "description": "",
-        "id": "materials-module;validate-error-message-is-thrown-adding-an-existing-material",
+        "id": "certificates-module;validate-certificate-creation-on-a-nux-page",
         "keyword": "Scenario Outline",
-        "line": 289,
-        "name": "Validate Error message is thrown adding an existing material",
+        "line": 112,
+        "name": "Validate certificate creation on a NUX page",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 608701500
+              "duration": 643304400
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 263,
+            "line": 95,
             "name": "I open the DS application",
             "match": {
               "location": "features\\step_definitions\\loginpage_Step_Definition.js:7"
             },
             "result": {
               "status": "passed",
-              "duration": 4659850299
+              "duration": 4599523998
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 264,
+            "line": 96,
             "name": "I login with \"vishnu.nangunuri@kanerika.com\" and \"Viya121898@\"",
             "match": {
               "location": "features\\step_definitions\\loginpage_Step_Definition.js:16"
             },
             "result": {
               "status": "passed",
-              "duration": 2177484100
+              "duration": 2096668100
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 265,
+            "line": 97,
             "name": "I Click on Login button",
             "match": {
               "location": "features\\step_definitions\\loginpage_Step_Definition.js:22"
             },
             "result": {
               "status": "passed",
-              "duration": 65593099
+              "duration": 67293000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 266,
+            "line": 98,
             "name": "Click on Launch button",
             "match": {
               "location": "features\\step_definitions\\loginpage_Step_Definition.js:28"
             },
             "result": {
               "status": "passed",
-              "duration": 7679705000
+              "duration": 7585709200
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 267,
+            "line": 99,
             "name": "Validate user logged in to the DS Homepage",
             "match": {
               "location": "features\\step_definitions\\loginpage_Step_Definition.js:34"
             },
             "result": {
               "status": "passed",
-              "duration": 10239362799
+              "duration": 10372501498
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 268,
+            "line": 100,
             "name": "Click on Material certificates page",
             "match": {
               "location": "features\\step_definitions\\material_Step_definition.js:11"
             },
             "result": {
               "status": "passed",
-              "duration": 1059185699
+              "duration": 1861085099
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 269,
-            "name": "Ensure no materials are present in the table",
+            "line": 101,
+            "name": "Click on certificates button",
             "match": {
-              "location": "features\\step_definitions\\material_Step_definition.js:361"
+              "location": "features\\step_definitions\\certificates_step_definition.js:7"
             },
             "result": {
               "status": "passed",
-              "duration": 16797812400
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 270,
-            "name": "Click on plus icon",
-            "match": {
-              "location": "features\\step_definitions\\material_Step_definition.js:21"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 60228499
+              "duration": 3747068599
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 271,
-            "name": "Click on Add new material button",
+            "line": 102,
+            "name": "Ensure that no certificates are present in the table",
             "match": {
-              "location": "features\\step_definitions\\material_Step_definition.js:26"
+              "location": "features\\step_definitions\\certificates_step_definition.js:157"
             },
             "result": {
               "status": "passed",
-              "duration": 281872099
+              "duration": 12005300
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 272,
-            "name": "Enter the Material Name as \"Test Material\"",
+            "line": 103,
+            "name": "Click on add new certificate button nux",
             "match": {
-              "location": "features\\step_definitions\\material_Step_definition.js:31"
+              "location": "features\\step_definitions\\certificates_step_definition.js:180"
             },
             "result": {
               "status": "passed",
-              "duration": 993400600
+              "duration": 2018633898
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 273,
-            "name": "Click on Submit button",
+            "line": 104,
+            "name": "I enter the certificate name as \"Test Certificate\"",
             "match": {
-              "location": "features\\step_definitions\\material_Step_definition.js:40"
+              "location": "features\\step_definitions\\certificates_step_definition.js:20"
             },
             "result": {
               "status": "passed",
-              "duration": 52917699
+              "duration": 43287899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 105,
+            "name": "I enter the description as \"Test Description\"",
+            "match": {
+              "location": "features\\step_definitions\\certificates_step_definition.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 43652099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 106,
+            "name": "I click on submit button",
+            "match": {
+              "location": "features\\step_definitions\\certificates_step_definition.js:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1863993600
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 274,
-            "name": "Validate the sucess mesaage for material creation",
+            "line": 107,
+            "name": "Validate certificate creation message is fired successfully",
             "match": {
-              "location": "features\\step_definitions\\material_Step_definition.js:47"
+              "location": "features\\step_definitions\\certificates_step_definition.js:43"
             },
             "result": {
               "status": "passed",
-              "duration": 891380199
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 275,
-            "name": "Validate the created material is in the table",
-            "match": {
-              "location": "features\\step_definitions\\material_Step_definition.js:54"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 389398999
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 276,
-            "name": "Click on plus icon",
-            "match": {
-              "location": "features\\step_definitions\\material_Step_definition.js:21"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 49888799
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 277,
-            "name": "Click on Add new material button",
-            "match": {
-              "location": "features\\step_definitions\\material_Step_definition.js:26"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 292812399
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 278,
-            "name": "Enter the same Material Name again in the text box",
-            "match": {
-              "location": "features\\step_definitions\\material_Step_definition.js:394"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 150260300
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 279,
-            "name": "Click on Submit button",
-            "match": {
-              "location": "features\\step_definitions\\material_Step_definition.js:40"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 51329100
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 280,
-            "name": "Validate the error mesaage for duplicated material creation",
-            "match": {
-              "location": "features\\step_definitions\\material_Step_definition.js:401"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 390488799
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 281,
-            "name": "Click on hamberger button for the created material",
-            "match": {
-              "location": "features\\step_definitions\\material_Step_definition.js:60"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 881481499
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 282,
-            "name": "Click on Delete button",
-            "match": {
-              "location": "features\\step_definitions\\material_Step_definition.js:68"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 308299099
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 283,
-            "name": "Validate the deleted message is fired sucessfully",
-            "match": {
-              "location": "features\\step_definitions\\material_Step_definition.js:75"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 4963344499
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 284,
-            "name": "Validate the material is not present in the table after the deletion",
-            "match": {
-              "location": "features\\step_definitions\\material_Step_definition.js:81"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 6411200
+              "duration": 906533200
             }
           },
           {
@@ -308,28 +191,28 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 172800
+              "duration": 94899
             }
           }
         ],
         "tags": [
           {
             "name": "@Regression",
-            "line": 260
+            "line": 92
           },
           {
             "name": "@Now",
-            "line": 260
+            "line": 92
           }
         ],
         "type": "scenario"
       }
     ],
-    "id": "materials-module",
+    "id": "certificates-module",
     "line": 1,
     "keyword": "Feature",
-    "name": "Materials Module",
+    "name": "Certificates Module",
     "tags": [],
-    "uri": "features\\Materials.feature"
+    "uri": "features\\Certificates.feature"
   }
 ]

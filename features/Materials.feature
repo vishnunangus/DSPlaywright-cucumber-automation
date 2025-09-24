@@ -257,7 +257,7 @@ Feature: Materials Module
 
 
 
-@Regression @Now 
+@Regression 
 
     Scenario Outline: Validate Error message is thrown adding an existing material 
         Given I open the DS application
