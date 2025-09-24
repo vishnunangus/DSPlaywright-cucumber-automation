@@ -288,3 +288,6 @@ Feature: Materials Module
             | username                      | password    |
             | vishnu.nangunuri@kanerika.com | Viya121898@ |
         
+        - Documents the purpose and usage of the selected code.
+        - Explains input parameters, return values, and side effects if any.
+        - Provides context for maintainers and users of the code.
